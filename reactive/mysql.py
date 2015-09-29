@@ -3,7 +3,7 @@ import os
 import sys
 import uuid
 
-from helpers.mysql import (
+from charms.mysql import (
     dataset_size,
     human_to_bytes,
     build_mycnf,
